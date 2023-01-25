@@ -85,6 +85,11 @@ public class frmMenuAdmin extends javax.swing.JFrame {
 
         menuSalir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ordendetrabajo/exit.png"))); // NOI18N
         menuSalir.setText("Salir");
+        menuSalir.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuSalirActionPerformed(evt);
+            }
+        });
         menuArchivo.add(menuSalir);
 
         jMenuBar1.add(menuArchivo);
@@ -169,6 +174,9 @@ public class frmMenuAdmin extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    //Aqui donde se podria crear el evento al componente que permitira
+    //el acceso a la vista deseada
+    
     private void menuProductoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuProductoActionPerformed
         // TODO add your handling code here:
         //frmAñadirProducto producto = new frmAñadirProducto();
@@ -200,6 +208,10 @@ public class frmMenuAdmin extends javax.swing.JFrame {
     private void menuArchivo1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuArchivo1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_menuArchivo1ActionPerformed
+
+    private void menuSalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuSalirActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_menuSalirActionPerformed
 
     /**
      * @param args the command line arguments
@@ -235,7 +247,9 @@ public class frmMenuAdmin extends javax.swing.JFrame {
             }
         });
     }
-
+    
+    //Es En este apartado donde se podria añadir el boton, de acuerdo a los
+    //componentes de la vista
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
     private javax.swing.JMenuBar jMenuBar1;
