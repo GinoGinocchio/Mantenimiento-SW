@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Mantenimiento-SW">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mysql-connector-java-5.1.47.jar!/" />
+      <root url="jar://$PROJECT_DIR$/javax.mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jfreechart-demo-1.5.2-jar-with-dependencies.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
